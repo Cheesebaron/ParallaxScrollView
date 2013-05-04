@@ -91,7 +91,7 @@ namespace Sample
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int acitivity_demo = 2130903040;
+			public const int activity_demo = 2130903040;
 			
 			private Layout()
 			{

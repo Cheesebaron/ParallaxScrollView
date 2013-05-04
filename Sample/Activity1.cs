@@ -18,7 +18,7 @@ namespace Sample
             base.OnCreate(bundle);
 
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.acitivity_demo);
+            SetContentView(Resource.Layout.activity_demo);
 
             _scrollView = FindViewById<ParallaxScrollView>(Resource.Id.scroll_view);
             _factorText = FindViewById<TextView>(Resource.Id.factor_text);
