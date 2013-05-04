@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cheesebaron.parallaxscrollview.ParallaxScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:id="@+id/scroll_view"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  app:parallaxOffset=".3">
+  
+  <!-- Background -->
+
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:scaleType="fitXY"
+    android:src="@drawable/bg" />
+  
+  <!-- Foreground -->
+
+  <cheesebaron.parallaxscrollview.ObservableScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <LinearLayout
+      android:layout_width="260dp"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:paddingBottom="@dimen/spacing"
+      android:paddingTop="@dimen/spacing" >
+    
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="left"
+        android:paddingLeft="@dimen/spacing"
+        android:paddingRight="@dimen/spacing"
+        android:paddingTop="@dimen/spacing"
+        android:text="Change Parallax Factor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/spacing" >
+
+        <Button
+          android:id="@+id/minus"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="- 0.05" />
+
+        <TextView
+          android:id="@+id/factor_text"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="0.3" />
+
+        <Button
+          android:id="@+id/plus"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="+ 0.05" />
+      </LinearLayout>
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="@dimen/spacing"
+        android:text="@string/hello_world" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/spacing"
+          android:background="@android:color/white"
+          android:padding="@dimen/spacing"
+          android:text="@string/hello_world" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/spacing"
+          android:background="@android:color/white"
+          android:padding="@dimen/spacing"
+          android:text="@string/hello_world" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/spacing"
+          android:background="@android:color/white"
+          android:padding="@dimen/spacing"
+          android:text="@string/hello_world" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/spacing"
+          android:background="@android:color/white"
+          android:padding="@dimen/spacing"
+          android:text="@string/hello_world" />
+    </LinearLayout>
+  </cheesebaron.parallaxscrollview.ObservableScrollView>
+
+</cheesebaron.parallaxscrollview.ParallaxScrollView>
