@@ -1,7 +1,7 @@
 ParallaxScrollView
 ==================
 
-A Parallax ScrollView for Xamarin.Android, which is ported from [this Android project](https://github.com/chrisjenx/ParallaxScrollView).
+A Parallax ScrollView for Xamarin.Android, which is ported from [this Android project](https://github.com/chrisjenx/ParallaxScrollView) originally made by [Christopher Jenkins](http://chrisjenx.co.uk/).
 
 ##Usage
 
